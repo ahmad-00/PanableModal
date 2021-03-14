@@ -7,7 +7,7 @@ In your source view controller (first view controller) Conform to UIViewControll
 ```swift
 func presentationController(forPresented presented: UIViewController, presenting: UIViewController?, source: UIViewController) -> UIPresentationController? {
         ModalPresentation(presentedViewController: presented, presenting: presenting)
-    }
+}
 ```
 
 present destination view controller (second view controller):
